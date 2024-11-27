@@ -9,7 +9,7 @@ class MovieRank {
     required this.rankInten,
   });
 
-  factory MovieRank.formJson(Map<String, dynamic> json) {
+  factory MovieRank.fromJson(Map<String, dynamic> json) {
     return MovieRank(
       rank: json['rank'],
       movieNm: json['movieNm'],
